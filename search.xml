@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>PowerShell y Linux</title>
+      <link href="2020/09/04/powershell-linux/"/>
+      <url>2020/09/04/powershell-linux/</url>
+      
+        <content type="html"><![CDATA[<p>Hace más menos 3 años que vengo trabajando con PowerShell y durante este tiempo me he dado cuenta de lo potente que puede ser para ambientes Windows, algunas de las cosas que he realizado han sido scripts de creación de máquinas virtuales, cargas masivas de usuarios, manager de cuenta de active directory son algunos de los escenarios que he indagado.</p><p>Este año por tema del Covid-19, donde trabajo (Universidad/Instituto/Centro de formación técnica) se comenzó a usar la herramienta Microsoft Team para las clases onlines. Todo bien, salvo algunos problemas con Microsoft por el masivo uso de la misma.</p><p>Obviamente como todo uso de una herramienta, se necesitan las famosas estadísticas de uso, entonces se generaron los problemas, ¿cómo obtengo dicha información del uso?, ¿cuántos equipos de trabajo tengo?, ¿fecha de creación de los equipos?, ¿quién son los dueños de los equipos?, ¿cuántos usuarios tiene cada grupo?, etc.</p><h2 id="Problematica"><a href="#Problematica" class="headerlink" title="Problemática"></a>Problemática</h2><p>Cuando tienes 1000 mil o 5000 mil grupos no es problema, pero cuando ese número bordea los 60 mil grupos, se vuelve un poco ineficiente el proceso de extracción de datos, obviamente como toda aventura en algo nuevo, el primer scripts nunca está bien depurado o no tiene la mejor lógica de programación. Es por eso que tenía en mente hacer la versión 2.0 del script y buscando información sobre como mejorarlo llegue a esta página:</p><p><a href="https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7">https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7</a></p><p>Donde me lleve una grata sorpresa de saber que después de la versión 5 de Powershell de Windows, existía una llamada PowerShell Core y que ya estaba la versión 7 de la misma, entonces nació mi idea de dejar Windows y comenzar a usar Linux y PowerShell.</p><blockquote><p>Para los que no saben, yo soy especialista en linux, pero como últimamente me había tocado hacer varias cosas en este sistema operativo, es que opte por aprender PowerShell, así como tengo Bash, Perl o Python en Linux para hacer los distintos scripts como sysadmin, en Windows necesitaba aprender algo robusto que me permitiera hacer script de forma eficiente y ese era PowerShell.</p></blockquote><p>Continuando con mi historia, al final instale un servidor para probar esta nueva versión de PowerShell con la cual desarrolle la versión 2.0 de mi script de reporte de Microsoft Team, ahora usando el método Delta para la extracción de grupo.</p><p>Actualmente este ha sido el único scripts que he desarrollado con PowerShell Core 7, pero no creo que sea él ultimó y a medida que vaya aprendiendo nuevas cosa las iré publicando, ya que como todo nuevo lenguaje de programación me ha encontrado con varios problemas que he podido solucionar y que podrán ser tips de ayuda para alguien más.</p><hr><p>¡Hola! ¿Te resultó útil o interesante? Si tienes algún comentario al respecto, me encantaría poder leerte. Puedes escribirme aquí en los comentarios o en jilabaca ‘at’ capsule.cl</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> scripting </tag>
+            
+            <tag> PowerShell </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> Microsoft Team </tag>
+            
+            <tag> Microsoft Graph </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="2020/09/02/hello-world/"/>
+      <url>2020/09/02/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
